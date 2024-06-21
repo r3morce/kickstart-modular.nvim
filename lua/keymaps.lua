@@ -3,8 +3,7 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Quick Command
 vim.keymap.set('n', ';', ':', { desc = 'Quick Command' })
-vim.keymap.set('i', ';', '<Esc>:', { desc = 'Quick Command' })
-vim.keymap.set('n', ';', '<Esc>:', { desc = 'Quick Command' })
+-- vim.keymap.set('i', ';', '<Esc>:', { desc = 'Quick Command' })
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })

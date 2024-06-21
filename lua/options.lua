@@ -1,5 +1,4 @@
--- Options are automatically loaded vefore lazy.nvim startup
--- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Default options: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 
 vim.g.have_nerd_font = true
 vim.opt.number = true
@@ -8,7 +7,7 @@ vim.opt.mouse = 'a' -- Enable mouse mode, can be useful for resizing splits for 
 vim.opt.showmode = true
 vim.opt.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim.
 -- vim.opt.breakindent = false
-vim.opt.wrap = true
+-- vim.opt.wrap = true
 vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -21,4 +20,4 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
-vim.opt.foldmethod = 'expr'
+-- vim.opt.foldmethod = 'indent'
