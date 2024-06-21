@@ -1,5 +1,6 @@
 return {
   'nvim-lualine/lualine.nvim',
+  -- enabled = false,
   event = 'VeryLazy',
   init = function()
     vim.g.lualine_laststatus = vim.o.laststatus
@@ -28,7 +29,7 @@ return {
       },
       sections = {
         lualine_a = { 'mode' },
-        lualine_b = { 'branch' },
+        lualine_b = {},
 
         lualine_c = {
           LazyVim.lualine.root_dir(),
@@ -89,13 +90,7 @@ return {
           },
         },
         lualine_y = {
-          { 'progress', separator = ' ', padding = { left = 1, right = 0 } },
-          { 'location', padding = { left = 0, right = 1 } },
-        },
-        lualine_z = {
-          function()
-            return ' ' .. os.date '%R'
-          end,
+          { 'progress', separator = ' ', padding = { left = 1, right = 1 } },
         },
       },
       extensions = { 'neo-tree', 'lazy' },
