@@ -1,6 +1,7 @@
 return {
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
+    -- enabled = false, -- Disable this plugin causes an error
     event = 'InsertEnter',
     dependencies = {
       -- Snippet Engine & its associated nvim-cmp source

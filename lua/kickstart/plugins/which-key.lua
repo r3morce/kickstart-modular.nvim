@@ -5,7 +5,6 @@ return {
     config = function()
       require('which-key').setup()
 
-      -- Document existing key chains
       require('which-key').register {
         ['<leader>b'] = { name = '[B]uffer', _ = 'which_key_ignore' },
         ['<leader>g'] = { name = '[G]it', _ = 'which_key_ignore' },
