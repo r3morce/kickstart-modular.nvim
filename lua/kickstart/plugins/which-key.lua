@@ -11,6 +11,7 @@ return {
         ['<leader>u'] = { name = '[U]I', _ = 'which_key_ignore' },
         ['<leader><tab>'] = { name = '[Tab]', _ = 'which_key_ignore' },
         ['<leader>c'] = { name = '[C]ode', _ = 'which_key_ignore' },
+        ['<leader>g'] = { name = '[G]-Commands', _ = 'which_key_ignore' },
         ['<leader>d'] = { name = '[D]ocument', _ = 'which_key_ignore' },
         ['<leader>r'] = { name = '[R]ename', _ = 'which_key_ignore' },
         ['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
